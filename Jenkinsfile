@@ -1,16 +1,11 @@
 pipeline {
-    agent any {
+    agent any
+
     stages {
-        stage ("Code") {
+        stage('git') {
             steps {
-                echo "this is the code stage"
+                echo 'multibranchstrategy
             }
         }
-        stage ("Code") {
-            steps {
-                echo "this is the code stage"
-            }
-        }
-    }
     }
 }
