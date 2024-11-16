@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('git') {
             steps {
-                echo 'multibranchstrategy
+                echo 'multibranchstrategy'
             }
         }
     }
