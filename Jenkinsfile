@@ -1,5 +1,11 @@
-stage ("Build-2") {
+pipeline {
+    agent any
+
+    stages {
+        stage('Hello') {
             steps {
-                echo "People"
+                echo 'Hello World'
             }
         }
+    }
+}
